@@ -89,15 +89,9 @@
 		65B24D562112EC7F00D2240F /* cocoa */ = {
 			isa = PBXGroup;
 			children = (
-				65B24D6B2113191F00D2240F /* CustomPage.xib */,
-				65B24D6D2113194800D2240F /* CustomPage.swift */,
-				65B24D6F2113196900D2240F /* CustomOverlay.xib */,
-				65B24D712113198800D2240F /* CustomOverlay.swift */,
-				65B24D572112EC7F00D2240F /* AppDelegate.swift */,
-				65B24D592112EC7F00D2240F /* ViewController.swift */,
-				65B24D5B2112EC7F00D2240F /* Main.storyboard */,
+				65B24D7D21132BAE00D2240F /* Classes */,
+				65B24D7C21132B9100D2240F /* Views */,
 				65B24D5E2112EC8000D2240F /* Assets.xcassets */,
-				65B24D602112EC8000D2240F /* LaunchScreen.storyboard */,
 				65B24D632112EC8000D2240F /* Info.plist */,
 				65B24D7B21131E0B00D2240F /* images */,
 			);
@@ -114,6 +108,28 @@
 			);
 			name = images;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		65B24D7C21132B9100D2240F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65B24D6B2113191F00D2240F /* CustomPage.xib */,
+				65B24D6F2113196900D2240F /* CustomOverlay.xib */,
+				65B24D5B2112EC7F00D2240F /* Main.storyboard */,
+				65B24D602112EC8000D2240F /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65B24D7D21132BAE00D2240F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65B24D6D2113194800D2240F /* CustomPage.swift */,
+				65B24D712113198800D2240F /* CustomOverlay.swift */,
+				65B24D592112EC7F00D2240F /* ViewController.swift */,
+				65B24D572112EC7F00D2240F /* AppDelegate.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		AA2C2EA67C5800A7721F96AB /* Pods */ = {
